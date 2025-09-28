@@ -1,4 +1,4 @@
-import { Moon, Sun, Linkedin, Twitter, Github, Instagram, Send, Phone, Mail, MapPin, Heart, ExternalLink, ArrowRight, Headphones } from 'lucide-react';
+// import { Moon, Sun, Linkedin, Twitter, Github, Instagram, Send, Phone, Mail, MapPin, Heart, ExternalLink, ArrowRight, Headphones } from 'lucide-react';
 const Footer = ({ isDark, navLinks }) => {
   return (
     <footer className={`${isDark ? 'bg-gray-950' : 'bg-gray-900'} text-white py-12`}>
@@ -28,11 +28,11 @@ const Footer = ({ isDark, navLinks }) => {
               <p className="flex items-center gap-2"><MapPin className="w-4 h-4" /> Rudrapur, Uttarakhand</p>
             </div>
             <div className="flex gap-3 mt-4">
-              {[Linkedin, Twitter, Github, Instagram, Send].map((Icon, idx) => (
+              {/* {[Linkedin, Twitter, Github, Instagram, Send].map((Icon, idx) => (
                 <a key={idx} href="#" className="w-10 h-10 bg-purple-500 rounded-full flex items-center justify-center hover:bg-yellow-600 hover:-translate-y-1 transition-all">
                   <Icon className="w-5 h-5" />
                 </a>
-              ))}
+              ))} */}
             </div>
           </div>
         </div>
