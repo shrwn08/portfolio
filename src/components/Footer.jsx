@@ -14,7 +14,7 @@ const Footer = ({ isDark, navLinks }) => {
               {navLinks.map(link => (
                 <li key={link}>
                   <a href={`#${link.toLowerCase()}`} className="text-gray-400 hover:text-purple-500 transition-colors flex items-center gap-2">
-                    <ArrowRight className="w-4 h-4" /> {link}
+                    {/* <ArrowRight className="w-4 h-4" /> {link} */}
                   </a>
                 </li>
               ))}
